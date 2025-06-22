@@ -53,6 +53,7 @@ Real Example: Generating specific clothes by type: "Make a red jacket".
 
 
 **Question 4**
+
 What does the Discriminator do in image-to-image GANs? Why is matching important?
 It checks if the output image matches the input (e.g., a map to a satellite image).
 Matching is important because the model must not only make a real-looking image, but it must match the input condition.
