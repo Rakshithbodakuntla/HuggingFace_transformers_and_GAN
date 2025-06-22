@@ -40,3 +40,19 @@ Built a Conditional GAN that generates digits (0–9) from random noise + digit 
 Trained it on the MNIST digit dataset.
 
 Generated one image per digit (0 to 9).
+
+
+
+**Question 3**
+
+How is a Conditional GAN different from a normal GAN?
+A normal GAN just makes random stuff.
+A Conditional GAN lets you control what it makes by giving it a label (like “make a 5”).
+
+Real Example: Generating specific clothes by type: "Make a red jacket".
+
+
+**Question 4**
+What does the Discriminator do in image-to-image GANs? Why is matching important?
+It checks if the output image matches the input (e.g., a map to a satellite image).
+Matching is important because the model must not only make a real-looking image, but it must match the input condition.
